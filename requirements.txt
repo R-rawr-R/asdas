@@ -1,0 +1,6 @@
+# Runtime dependencies (see pyproject.toml). opencv-python-headless is used deliberately:
+# the GUI is PySide6, and the non-headless OpenCV wheel bundles its own Qt, which can conflict.
+PySide6>=6.6
+opencv-python-headless>=4.8
+numpy>=1.26
+requests>=2.31
